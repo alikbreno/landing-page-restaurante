@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190827/pngtree-wooden-plank-texture-wall-background-image_306975.jpg);
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.vazio{
+    display: block;
+    height: 65px;
+}
+.td{
+    background-image: linear-gradient(to bottom, rgb(114, 55, 0),rgb(155, 93, 0), rgb(255, 136, 0));
+    background-repeat: no-repeat;
+}
+.heroimg{
+    background-image: url("/img/freepik-export-20240529015901aXd6.png");
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(211, 120, 0);
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+}
+.container1 section p, .container1 section img, .container1 section h1{
+    margin: 20px;
+    text-align: justify;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.lado a{
+    text-decoration-line: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 65px;
+    border-radius: 5px;
+    background-image: radial-gradient(circle, rgb(114, 55, 0),rgb(155, 93, 0), rgb(255, 136, 0));
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cardapio{
+    display: flex;
+    justify-content: space-around;
+}
+.comida img{
+    width: 290px;
+}
+.comida{
+    margin: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0, .7);
+}
+.container1  .dentrocontainer, .dentrocontainer2{
+    display: flex;
+    margin: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0, .7);
+}
+.container1{
+    margin-bottom: 50px;
+}
+main{
+    background-color: white;
+    margin: 0 10%;
+}
+.xeroso{
+    color: orange;
+    margin: 10px;
+}
+.restaurante{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.titulo{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    height: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu{
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    color: white;
+    text-decoration-line: none;
+    height: 65px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+}
+.menu a:hover{
+    background-color: orange;
+}
+.contatar p, .contatar ul, .contatar li{
+    margin: 20px;
+}
+.contatar h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80px;
+    background-color: rgb(114, 55, 0);
+}
+.dentro img{
+    width: 100%;
+}
+.tipos{
+    margin: 40px 20px 20px 20px;
+}
+.texto{
+    margin: 20px;
+    text-align: justify;
+}
+.contatar h2{
+    margin: 30px 10px;
+    background-color: orange;
+}
+.principal{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.sep{
+    background-color: gray;
+    display: block;
+    color: rgb(114, 55, 0);
+    height: 1px;
+}
+footer{
+    background-color: rgb(114, 55, 0);
+}
+.footer{
+    display: flex;
+    padding: 30px;
+}
+.icons{
+    font-size: 35px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons a:hover{
+    color: white;
+}
+.icons a{
+    color: black;
+}
+.footer nav{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+.footer section{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.footer nav a{
+    text-decoration-line: none;
+    color: black;
+    padding: 10px;
+}
+.footer nav a:hover{
+    color: white;
+}
+.copyright{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
